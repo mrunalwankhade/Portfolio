@@ -10,14 +10,18 @@ with col1:
 with col2:
     st.title("Mrunal Wankhade")
     content = """
-    Hi, I am Mrunal! I am a Data Analyst.
+    Hi, I am Mrunal! 
+    
+    I am a Data Analyst currently.
+    
+    Newly started working on python programming,this page is one of the result of that,which you are seeing right now! 
     """
     st.info(content)
 
 content2 = """
-Below you can find some of the apps I have build in python.Feel free to contact me!
+Below you can find some of the apps I have build in python. Feel free to use and contact me!
 """
-st.write(content2)
+st.subheader(content2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
